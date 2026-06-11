@@ -11,11 +11,11 @@ pipeline {
                 bat 'npm install'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Skipping tests - no test script found'
-            }
-        }
+        stage('Deploy') {
+    steps {
+        bat 'echo %VERCEL_TOKEN%'
+    }
+}
         stage('Build') {
             steps {
                 bat 'npm run build'
