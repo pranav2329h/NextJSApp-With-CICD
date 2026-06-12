@@ -14,7 +14,7 @@ export default function Home() {
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
-            Pranav Hydrabade it isstarted this is 3rd time to check the deploymen this is 4th time deployment this is the last puch to check the pipeline {" "}
+            Pranav Hydrabade the devops engineer {" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
               app/page.tsx
             </code>
